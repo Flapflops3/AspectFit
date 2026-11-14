@@ -1,0 +1,11 @@
+{
+  "id": "AspectWindow",
+  "name": "随窗而变 · AspectFit",
+  "author": "Local Mod",
+  "description": "Windows 窗口模式下，拖动任意边或角时保持游戏画面宽高比。",
+  "version": "1.0.0",
+  "has_pck": false,
+  "has_dll": true,
+  "dependencies": [],
+  "affects_gameplay": false
+}
