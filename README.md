@@ -52,3 +52,12 @@ Please include your game version, Windows display scaling, selected aspect ratio
 反馈时请附上游戏版本、Windows 缩放比例、画面宽高比、分辨率和复现步骤。
 
 Game art and trademarks belong to their respective owners. This is a community-made mod.
+
+
+## Signature / 作者签名
+
+<img src="media/signature.png" alt="Flapflops signature" width="160">
+
+Hover the small signature in the lower-right corner to see **随窗而变 · AspectFit**. Click the signature itself to hide it for the current game session. It returns the next time you launch the game. There is no separate close button.
+
+鼠标悬停在游戏右下角的小签名上会显示模组名。点击签名即可隐藏，本次游戏期间不再出现，下次启动恢复。没有额外关闭按钮。

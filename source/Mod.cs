@@ -36,6 +36,7 @@ public static class Mod
             return;
         }
         tree.ProcessFrame += Refresh;
+        SignatureOverlay.Attach(tree);
         Refresh();
     }
 
@@ -52,7 +53,7 @@ public static class Mod
                 if (!NativeWindow.SetWindowSubclass(handle, Callback, SubclassId, 0))
                     throw new InvalidOperationException("SetWindowSubclass failed on engine thread.");
                 _hwnd = handle;
-                GD.Print("[AspectWindow] Native window hook installed (v1.0.0).");
+                GD.Print("[AspectWindow] Native window hook installed (v1.1.0).");
             }
             var settings = SaveManager.Instance.SettingsSave;
             _enabled = !settings.Fullscreen && settings.ResizeWindows &&
